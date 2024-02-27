@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4001",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "web": "cd frontend && npm i && npm start",
-    "server": "cd backend && npm i && npm start",
-    "vercelDeploy": "npm run server && npm run web"
+    "web": "cd ../frontend && npm i && npm start",
+    "server": "cd ../backend && npm i && npm start",
+    "vercelDeploy": "start npm run server && start npm run web"
   },
   "private": true,
   "dependencies": {
