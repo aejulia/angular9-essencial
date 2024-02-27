@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vestido Rosa",
+      "price": "199.99"
+    },
+    {
+      "id": 2,
+      "name": "Sapato Rosa",
+      "price": "79.99"
+    },
+    {
+      "id": 3,
+      "name": "Anel Ouro Rosa",
+      "price": "149.99"
+    },
+    {
+      "name": "Cinto Rosa",
+      "price": "49.99",
+      "id": 4
+    },
+    {
+      "name": "Pulseira Rosa",
+      "price": "59.99",
+      "id": 5
+    },
+    {
+      "name": "Coroa Rosa",
+      "price": "1000.99",
+      "id": 6
+    }
+  ]
+}
