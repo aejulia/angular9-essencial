@@ -11,13 +11,6 @@
     "env": {
       "ENV_VAR": "value"
     },
-    "functions": {
-      "api/index.js": {
-        "runtime": "nodejs12.x",
-        "memory": 512,
-        "maxDuration": 10
-      }
-    },
     "alias": { "example": "angular9-essencial" }
   }
   
