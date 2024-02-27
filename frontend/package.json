@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "vercelDeploy": "cd ../backend && npm install --force --legacy-peer-deps && npm run build & cd ../frontend && npm install --force --legacy-peer-deps && npm run build"
+    "vercelDeploy": "cd ../backend && npm install --force --legacy-peer-deps && npm run build & cd ../frontend && npm install --force --legacy-peer-deps && npm start"
   },
   "private": true,
   "dependencies": {
