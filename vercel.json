@@ -11,6 +11,6 @@
     "env": {
       "ENV_VAR": "value"
     },
-    "alias": { "example": "angular9-essencial" }
+    "alias":  "angular9-essencial"
   }
   
