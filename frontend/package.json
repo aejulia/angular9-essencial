@@ -8,9 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "web": "cd ../frontend && npm i && npm start",
-    "server": "cd ../backend && npm i && npm start",
-    "vercelDeploy": "start npm run server && start npm run web"
+    "vercelDeploy": "cd ../backend && npm install && npm start & cd ../frontend && npm install && npm start"
   },
   "private": true,
   "dependencies": {
